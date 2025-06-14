@@ -1,0 +1,37 @@
+/* App.css */
+.app-layout {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background: linear-gradient(to bottom, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-item.active {
+  background: white;
+  color: #667eea;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.main-content {
+  flex: 1;
+  background: #f6f9fc;
+  padding: 30px;
+  overflow-y: auto;
+}
