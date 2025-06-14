@@ -35,7 +35,7 @@ app.use('/api/tourSettings', tourSettings);
 
 
 // Serve static files from the "public" directory
-app.use(express.static(path.join(__dirname, 'api')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Error handling middleware
 // app.use((err, req, res, next) => {
